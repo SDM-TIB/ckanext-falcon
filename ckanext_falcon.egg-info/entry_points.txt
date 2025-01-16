@@ -1,0 +1,8 @@
+
+        [ckan.plugins]
+        falcon=ckanext.falcon.plugin:FalconPlugin
+
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    
